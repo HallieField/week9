@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css" />
+</head>
+
+<body class="bg-success">
+    <div id="main-container" class="container pt-2 pb-4 bg-light">
+        <div>
+            <img src="images/legend_zelda_banner.jpg" class="img-fluid" alt="Page banner with Link." width="2000" />
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-success">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="week9.html">Link's Lawn Service</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="week9.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="requestinfo.html">Request Info</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <img src="images/laying_in_grass.jpg" class="img-fluid" alt="Hyrule grass picture" width="1200" />
+    </div>
+
+    <div class="container pt-2 pb-4">
+        <table class="table table-info table-hover">
+            <tr>
+                <th>Region</th>
+                <th>Lot Type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <th>Kakriko Village</th>
+                <th>House</th>
+                <th>15 rupees</th>
+            </tr>
+            <tr>
+                <th>Kokiri Forest</th>
+                <th>House</th>
+                <th>20 rupees</th>
+            </tr>
+            <tr>
+                <th>Lon Lon Ranch</th>
+                <th>Farm</th>
+                <th>50 rupees</th>
+            </tr>
+            <tr>
+                <th>Hyrule Castle</th>
+                <th>Castle Grounds</th>
+                <th>100 rupees</th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Sheikah Slate Address:</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Please describe the lawn you would like
+                serviced:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-dark">Submit</button>
+    </div>
+
+</body>
+
+</html>
